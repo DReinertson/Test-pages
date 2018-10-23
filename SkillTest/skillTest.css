@@ -1,0 +1,230 @@
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+a{
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.navbar{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  background-color: red;
+}
+.navbar-section{
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+.login-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login{
+  padding-right: 10px;
+}
+.call {
+  color: black;
+}
+.number {
+  color: white;
+}
+.login{
+  color: black;
+}
+.signup{
+  color: white;
+}
+
+.mainbar{
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+  background-color: lightGray;
+}
+.titles{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 70%;
+}
+.title{
+  padding-right: 5px;
+  cursor: context-menu;
+  position: relative;
+  display: inline-block;
+}
+
+
+.logo{
+  font-size: 30px;
+  width: 30%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+ul{
+  position: absolute;
+  border: 1px solid black;
+  text-align: center;
+  padding: 10px;
+  float: none;
+  list-style: none;
+  background-color: lightGray;
+}
+.dropdown-menu li{
+  text-align: left;
+}
+li a{
+  text-decoration: none;
+  color: black;
+}
+.submenu{
+  position: relative;
+}
+.submenu ul{
+  top: 0;
+  left: 114%;
+  width: 100%;
+}
+
+.innerdrop{
+  font-weight: bold;
+}
+
+
+.title:hover{
+  border-bottom: orange solid 4px;
+}
+
+
+.pages{
+  padding-top: 30px;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+}
+.select{
+  width: 100%;
+  text-align: left;
+  padding-bottom: 40px;
+}
+
+
+.contact-page{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.contact-paragraph{
+  width: 90%;
+}
+.contact-us{
+  width: 40%;
+  padding-right: 8%;
+  color: orange;
+}
+.reach-us{
+  width: 40%;
+  color: orange;
+}
+.contact-us h1{
+  border-bottom: 5px solid black;
+  padding-bottom: 5px;
+}
+
+input{
+  margin-bottom: 8px;
+  height: 24px;
+}
+
+.name {
+  width: 100%;
+}
+
+.phone{
+  width: 48%;
+  margin-right: 4px;
+}
+.email{
+  width: 49%;
+}
+.message{
+  width: 100%;
+}
+.submit{
+  background-color: orange;
+  color:white;
+}
+
+.reach-us h1{
+  border-bottom: 5px solid black;
+  padding-bottom: 5px;
+}
+.reach-us h5{
+  padding: 0;
+  margin: 0;
+  color: black;
+}
+
+.social-media{
+  margin-top: 50px;
+}
+.social-media a{
+  margin-right: 5px;
+}
+.fa{
+  background-color: #666666;
+  padding: 10px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  opacity: 0.5;
+}
+.fa:hover{
+  opacity: 1;
+  background-color: black;
+}
+
+
+.who-we-are-page .contact-page{
+  display: none;
+}
+
+.home:hover .home-page{
+  display: flex;
+}
+.home:hover .who-we-are{
+  display: none;
+}
+.home:hover .contact-page{
+  display: none;
+}
+
+.who-we-are:hover .who-we-are-page{
+  display: flex;
+}
+.who-we-are:hover .home-page{
+  display:none;
+}
+
+.who-we-are:hover .contact-page{
+  display: none;
+}
+
+
+.contact:hover .contact-page{
+  display: flex;
+}
+.contact:hover .who-we-are-page{
+  display: none;
+}
+.contact:hover .home-page{
+  display: none;
+}
